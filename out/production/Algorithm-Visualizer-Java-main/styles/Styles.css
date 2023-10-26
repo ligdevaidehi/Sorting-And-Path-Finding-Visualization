@@ -1,0 +1,33 @@
+
+.visNode {
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-padding: 0 5 0 5;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-border-color: black;
+    -fx-border-radius: 22;
+    -fx-font-size: 15px;
+}
+
+.arrow {
+    -fx-stroke: purple;
+}
+
+.arrowHead {
+    -fx-stroke: blue;
+    -fx-stroke-width: 3;
+}
+
+.dragged {
+    -fx-stroke: red;
+    -fx-background-color: red;
+    -opacity: 0.4;
+}
+
+.label {
+    -fx-font-family: 'Comic Sans MS'; /* Fallback to a generic sans-serif font */
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
